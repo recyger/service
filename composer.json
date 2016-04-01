@@ -4,6 +4,9 @@
   "minimum-stability": "dev",
   "license"          : "proprietary",
   "type"             : "test-service",
+  "config": {
+    "secure-http": false
+  },
   "authors"          : [
     {
       "name" : "author's name",
@@ -15,5 +18,8 @@
       "type" : "composer",
       "url" : "http://packagist.itass.local/"
     }
-  ]
+  ],
+  "require": {
+    "testing/common": "dev-master"
+  }
 }

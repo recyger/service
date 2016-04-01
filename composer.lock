@@ -1,0 +1,49 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "565f4a9032fc80b63f19815bbccf131e",
+    "content-hash": "c4c9fb6c53ca4c73b4a2ef8cc194cf75",
+    "packages": [
+        {
+            "name": "testing/common",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:recyger/common.git",
+                "reference": "d36f430e9f52ab7ff51fd4ee7c1275fa9f19b5a4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/recyger/common/zipball/d36f430e9f52ab7ff51fd4ee7c1275fa9f19b5a4",
+                "reference": "d36f430e9f52ab7ff51fd4ee7c1275fa9f19b5a4",
+                "shasum": ""
+            },
+            "type": "test-common",
+            "notification-url": "http://packagist.itass.local/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "author's name",
+                    "email": "email@example.com"
+                }
+            ],
+            "description": "description_text",
+            "time": "2016-04-01 11:06:51"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "testing/common": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
